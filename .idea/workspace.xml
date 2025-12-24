@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Java Basics Practice - 19 Dec 2025">
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0028_Arithmetic_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0029_Relational_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0030_Unary_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0031_Modules_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0032_Logical_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0033_InterviewQ_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0034_InterviewQ2_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0035_InterviewQ3_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0036_InterviewQ4_BODMAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0037_Double_Equals_Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0038_InterviewQ1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0039_InterviewQ2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0040_InterviewQ3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0041_All_Operators_Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0042_Instance_Operators_Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0043_InterviewQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0044_InterviewQuestions2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0045_InterviewQ_char_int.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab0046_InterviewQ1_char_int.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Java Operators Practice - 22 Dec 2025">
+      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Ternary_Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Ternary_max.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +88,8 @@
     "Application.Lab006_Math_Exersize_Basic.executor": "Run",
     "Application.Lab007_Math_Exersize_basic2.executor": "Run",
     "Application.Lab008_Println.executor": "Run",
+    "Application.Ternary_Operator.executor": "Run",
+    "Application.Ternary_max.executor": "Run",
     "Application.Variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -116,33 +101,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0046_InterviewQ1_char_int">
-    <configuration name="Lab0041_All_Operators_Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_04_Operators.Lab0041_All_Operators_Examples" />
-      <module name="LearningJavaATB15xProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_04_Operators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab0042_Instance_Operators_Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_04_Operators.Lab0042_Instance_Operators_Examples" />
-      <module name="LearningJavaATB15xProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_04_Operators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ternary_max">
     <configuration name="Lab0043_InterviewQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_04_Operators.Lab0043_InterviewQuestion" />
       <module name="LearningJavaATB15xProgram" />
@@ -182,13 +141,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ternary_Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_04_Operators.Ternary_Operator" />
+      <module name="LearningJavaATB15xProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_04_Operators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ternary_max" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_04_Operators.Ternary_max" />
+      <module name="LearningJavaATB15xProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_04_Operators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ternary_max" />
+        <item itemvalue="Application.Ternary_Operator" />
         <item itemvalue="Application.Lab0046_InterviewQ1_char_int" />
         <item itemvalue="Application.Lab0045_InterviewQ_char_int" />
         <item itemvalue="Application.Lab0043_InterviewQuestion" />
-        <item itemvalue="Application.Lab0042_Instance_Operators_Examples" />
-        <item itemvalue="Application.Lab0041_All_Operators_Examples" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766247296220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java Operators Practice - 22 Dec 2025">
+      <option name="closed" value="true" />
+      <created>1766461371348</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766461371348</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +245,7 @@
     <MESSAGE value="Java Basics Practice - 16 Dec 2025" />
     <MESSAGE value="Java Basics Practice - 17 Dec 2025" />
     <MESSAGE value="Java Basics Practice - 19 Dec 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Basics Practice - 19 Dec 2025" />
+    <MESSAGE value="Java Operators Practice - 22 Dec 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Operators Practice - 22 Dec 2025" />
   </component>
 </project>
