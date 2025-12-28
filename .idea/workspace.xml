@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Java TernaryOperator - 23 Dec 2025">
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0062_PreOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0063_PostOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0064_PostOperators_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0065_PostOperators_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0066_PostOperators_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0067_Decrement_Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0068_Interview_Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0069_Interview_Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0070_Interview_Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0071_If_Statement_CommandLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0072_If_Statement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0073_If_Statement_userInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0074_If_Statement_InterviewQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0075_If_ElseIf_Else.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0076_If_Else_InterviewQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0077_If_Else_InterviewQ2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0078_If_Else_InterviewQ2_AlternativeWay.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Other operators and If, if else statement practice - 28/12/2025">
+      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0079_InterviewQ_GradeCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,6 +114,7 @@
     "Application.Lab0075_If_Else_InterviewQ.executor": "Run",
     "Application.Lab0077_If_Else_InterviewQ2.executor": "Run",
     "Application.Lab0078_If_Else_InterviewQ2_AlternativeWay.executor": "Run",
+    "Application.Lab0079_InterviewQ_GradeCalculator.executor": "Run",
     "Application.Lab007_Math_Exersize_basic2.executor": "Run",
     "Application.Lab008_Println.executor": "Run",
     "Application.Ternary_Operator.executor": "Run",
@@ -145,20 +130,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0078_If_Else_InterviewQ2_AlternativeWay">
-    <configuration name="Lab0074_If_Statement_InterviewQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_08_If_Condition.Lab0074_If_Statement_InterviewQ" />
-      <module name="LearningJavaATB15xProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_08_If_Condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lab0079_InterviewQ_GradeCalculator">
     <configuration name="Lab0075_If_ElseIf_Else" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_08_If_Condition.Lab0075_If_ElseIf_Else" />
       <module name="LearningJavaATB15xProgram" />
@@ -211,8 +183,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab0079_InterviewQ_GradeCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_08_If_Condition.Lab0079_InterviewQ_GradeCalculator" />
+      <module name="LearningJavaATB15xProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_08_If_Condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Lab0074_If_Statement_InterviewQ" />
+      <item itemvalue="Application.Lab0079_InterviewQ_GradeCalculator" />
       <item itemvalue="Application.Lab0075_If_ElseIf_Else" />
       <item itemvalue="Application.Lab0076_If_Else_InterviewQ" />
       <item itemvalue="Application.Lab0077_If_Else_InterviewQ2" />
@@ -220,11 +205,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab0079_InterviewQ_GradeCalculator" />
         <item itemvalue="Application.Lab0078_If_Else_InterviewQ2_AlternativeWay" />
         <item itemvalue="Application.Lab0077_If_Else_InterviewQ2" />
         <item itemvalue="Application.Lab0076_If_Else_InterviewQ" />
         <item itemvalue="Application.Lab0075_If_ElseIf_Else" />
-        <item itemvalue="Application.Lab0074_If_Statement_InterviewQ" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766544150610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Other operators and If, if else statement practice - 28/12/2025">
+      <option name="closed" value="true" />
+      <created>1766941624847</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766941624847</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,27 +299,7 @@
     <MESSAGE value="Java Basics Practice - 19 Dec 2025" />
     <MESSAGE value="Java Operators Practice - 22 Dec 2025" />
     <MESSAGE value="Java TernaryOperator - 23 Dec 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java TernaryOperator - 23 Dec 2025" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0068_Interview_Q1.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0068_Interview_Q1.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex_07_IncrementDecrement_Operators/Lab0068_Interview_Q1.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Other operators and If, if else statement practice - 28/12/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Other operators and If, if else statement practice - 28/12/2025" />
   </component>
 </project>
