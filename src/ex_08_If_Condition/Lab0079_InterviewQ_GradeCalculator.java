@@ -21,7 +21,6 @@ public class Lab0079_InterviewQ_GradeCalculator {
         } else if (marks >=80 && marks<=89) {
             System.out.println("Grade B");
         }
-
         sc.close();
     }
 }

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Other operators and If, if else statement practice - 28/12/2025">
-      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0079_InterviewQ_GradeCalculator.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Grade Calculator">
+      <change afterPath="$PROJECT_DIR$/src/Java_Coding_250_Interview_Questions/Code_01_UserInputExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Coding_250_Interview_Questions/Code_02_TablePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Coding_250_Interview_Questions/Code_03_FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Coding_250_Interview_Questions/Code_04_String_Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0080_InterviewQ_Simple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0079_InterviewQ_GradeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_08_If_Condition/Lab0079_InterviewQ_GradeCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +53,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Code_02_TablePrint.executor": "Run",
+    "Application.Code_03_FizzBuzz.executor": "Run",
     "Application.Lab0011_Variable_basic2.executor": "Run",
     "Application.Lab0012_Variable_interviewQ.executor": "Run",
     "Application.Lab0013_Variable_InterviewQ2.executor": "Run",
@@ -116,9 +123,11 @@
     "Application.Lab0078_If_Else_InterviewQ2_AlternativeWay.executor": "Run",
     "Application.Lab0079_InterviewQ_GradeCalculator.executor": "Run",
     "Application.Lab007_Math_Exersize_basic2.executor": "Run",
+    "Application.Lab0080_InterviewQ_Simple.executor": "Run",
     "Application.Lab008_Println.executor": "Run",
     "Application.Ternary_Operator.executor": "Run",
     "Application.Ternary_max.executor": "Run",
+    "Application.UserInputExample.executor": "Run",
     "Application.Variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -130,13 +139,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0079_InterviewQ_GradeCalculator">
-    <configuration name="Lab0075_If_ElseIf_Else" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_08_If_Condition.Lab0075_If_ElseIf_Else" />
+  <component name="RunManager" selected="Application.Code_03_FizzBuzz">
+    <configuration name="Code_01_UserInputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Coding_250_Interview_Questions.Code_01_UserInputExample" />
       <module name="LearningJavaATB15xProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_08_If_Condition.*" />
+          <option name="PATTERN" value="Java_Coding_250_Interview_Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0076_If_Else_InterviewQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_08_If_Condition.Lab0076_If_Else_InterviewQ" />
+    <configuration name="Code_02_TablePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Coding_250_Interview_Questions.Code_02_TablePrint" />
       <module name="LearningJavaATB15xProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_08_If_Condition.*" />
+          <option name="PATTERN" value="Java_Coding_250_Interview_Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,25 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0077_If_Else_InterviewQ2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_08_If_Condition.Lab0077_If_Else_InterviewQ2" />
+    <configuration name="Code_03_FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Coding_250_Interview_Questions.Code_03_FizzBuzz" />
       <module name="LearningJavaATB15xProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_08_If_Condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab0078_If_Else_InterviewQ2_AlternativeWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_08_If_Condition.Lab0078_If_Else_InterviewQ2_AlternativeWay" />
-      <module name="LearningJavaATB15xProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_08_If_Condition.*" />
+          <option name="PATTERN" value="Java_Coding_250_Interview_Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,20 +192,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab0080_InterviewQ_Simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_08_If_Condition.Lab0080_InterviewQ_Simple" />
+      <module name="LearningJavaATB15xProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_08_If_Condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Code_02_TablePrint" />
+      <item itemvalue="Application.Code_03_FizzBuzz" />
+      <item itemvalue="Application.Code_01_UserInputExample" />
+      <item itemvalue="Application.Lab0080_InterviewQ_Simple" />
       <item itemvalue="Application.Lab0079_InterviewQ_GradeCalculator" />
-      <item itemvalue="Application.Lab0075_If_ElseIf_Else" />
-      <item itemvalue="Application.Lab0076_If_Else_InterviewQ" />
-      <item itemvalue="Application.Lab0077_If_Else_InterviewQ2" />
-      <item itemvalue="Application.Lab0078_If_Else_InterviewQ2_AlternativeWay" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_03_FizzBuzz" />
+        <item itemvalue="Application.Code_02_TablePrint" />
+        <item itemvalue="Application.Code_01_UserInputExample" />
+        <item itemvalue="Application.Lab0080_InterviewQ_Simple" />
         <item itemvalue="Application.Lab0079_InterviewQ_GradeCalculator" />
-        <item itemvalue="Application.Lab0078_If_Else_InterviewQ2_AlternativeWay" />
-        <item itemvalue="Application.Lab0077_If_Else_InterviewQ2" />
-        <item itemvalue="Application.Lab0076_If_Else_InterviewQ" />
-        <item itemvalue="Application.Lab0075_If_ElseIf_Else" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766941624847</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Grade Calculator">
+      <option name="closed" value="true" />
+      <created>1766942673918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766942673918</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +317,7 @@
     <MESSAGE value="Java Operators Practice - 22 Dec 2025" />
     <MESSAGE value="Java TernaryOperator - 23 Dec 2025" />
     <MESSAGE value="Other operators and If, if else statement practice - 28/12/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Other operators and If, if else statement practice - 28/12/2025" />
+    <MESSAGE value="Grade Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grade Calculator" />
   </component>
 </project>
