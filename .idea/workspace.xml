@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Changes done">
-      <change afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0106_ForLoop_break.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0107_For_loop_continue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0108_Factorial_Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0108_For_loop_Real_Use_Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0108_For_loop_continue_Even_Numbers.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="For loop examples">
+      <change afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0108_Factorial_Prog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_11_While_Loop/Abc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_11_While_Loop/Lab0111_While_Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_11_While_Loop/Lab0112_While_Loop2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_11_While_Loop/Lab0112_While_Loop_Interview1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_11_While_Loop/Lab0113_While_Loop_Interview2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_11_While_Loop/Lab0114_While_Loop_Interview3_IQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_11_While_Loop/Lab0115_Factorial_Using_while_loop_Interview4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_11_While_Loop/Lab0116_GuessingNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0104_Odd_Even_From_TOP50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0105_Odd_Even_From_TOP50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0108_Factorial_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0108_For_loop_Real_Use_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0110_For_loop_Real_Use_Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0108_For_loop_continue_Even_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_10_For_Loop/Lab0109_For_loop_continue_Even_Numbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Abc.executor": "Run",
     "Application.Code_02_TablePrint.executor": "Run",
     "Application.Code_03_FizzBuzz.executor": "Run",
     "Application.Lab0011_Variable_basic2.executor": "Run",
@@ -150,7 +157,16 @@
     "Application.Lab0104_Odd_Even_From_TOP50.executor": "Run",
     "Application.Lab0106_ForLoop_break.executor": "Run",
     "Application.Lab0107_For_loop_continue.executor": "Run",
+    "Application.Lab0108_Factorial_Prog.executor": "Run",
+    "Application.Lab0108_Factorial_Program.executor": "Run",
     "Application.Lab0108_For_loop_continue_Even_Numbers.executor": "Run",
+    "Application.Lab0111_While_Loop.executor": "Run",
+    "Application.Lab0112_While_Loop2.executor": "Run",
+    "Application.Lab0112_While_Loop_Interview1.executor": "Run",
+    "Application.Lab0113_While_Loop_Interview2.executor": "Run",
+    "Application.Lab0114_While_Loop_Interview3_IQ.executor": "Run",
+    "Application.Lab0115_Factorial_Using_while_loop_Interview4.executor": "Run",
+    "Application.Lab0116_GuessingNumbers.executor": "Run",
     "Application.Ternary_Operator.executor": "Run",
     "Application.Ternary_max.executor": "Run",
     "Application.UserInputExample.executor": "Run",
@@ -165,13 +181,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0108_For_loop_continue_Even_Numbers">
-    <configuration name="Lab0104_ForLoop_ConfusionQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_10_For_Loop.Lab0104_ForLoop_ConfusionQ" />
+  <component name="RunManager" selected="Application.Abc">
+    <configuration name="Abc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_11_While_Loop.Abc" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_10_For_Loop.*" />
+          <option name="PATTERN" value="ex_11_While_Loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0105_Odd_Even_From_TOP50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_10_For_Loop.Lab0105_Odd_Even_From_TOP50" />
+    <configuration name="Lab0113_While_Loop_Interview2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_11_While_Loop.Lab0113_While_Loop_Interview2" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_10_For_Loop.*" />
+          <option name="PATTERN" value="ex_11_While_Loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0106_ForLoop_break" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_10_For_Loop.Lab0106_ForLoop_break" />
+    <configuration name="Lab0114_While_Loop_Interview3_IQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_11_While_Loop.Lab0114_While_Loop_Interview3_IQ" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_10_For_Loop.*" />
+          <option name="PATTERN" value="ex_11_While_Loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0107_For_loop_continue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_10_For_Loop.Lab0107_For_loop_continue" />
+    <configuration name="Lab0115_Factorial_Using_while_loop_Interview4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_11_While_Loop.Lab0115_Factorial_Using_while_loop_Interview4" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_10_For_Loop.*" />
+          <option name="PATTERN" value="ex_11_While_Loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0108_For_loop_continue_Even_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_10_For_Loop.Lab0108_For_loop_continue_Even_Numbers" />
+    <configuration name="Lab0116_GuessingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_11_While_Loop.Lab0116_GuessingNumbers" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_10_For_Loop.*" />
+          <option name="PATTERN" value="ex_11_While_Loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,19 +248,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lab0106_ForLoop_break" />
-      <item itemvalue="Application.Lab0107_For_loop_continue" />
-      <item itemvalue="Application.Lab0108_For_loop_continue_Even_Numbers" />
-      <item itemvalue="Application.Lab0104_ForLoop_ConfusionQ" />
-      <item itemvalue="Application.Lab0105_Odd_Even_From_TOP50" />
+      <item itemvalue="Application.Abc" />
+      <item itemvalue="Application.Lab0113_While_Loop_Interview2" />
+      <item itemvalue="Application.Lab0114_While_Loop_Interview3_IQ" />
+      <item itemvalue="Application.Lab0115_Factorial_Using_while_loop_Interview4" />
+      <item itemvalue="Application.Lab0116_GuessingNumbers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab0108_For_loop_continue_Even_Numbers" />
-        <item itemvalue="Application.Lab0107_For_loop_continue" />
-        <item itemvalue="Application.Lab0106_ForLoop_break" />
-        <item itemvalue="Application.Lab0105_Odd_Even_From_TOP50" />
-        <item itemvalue="Application.Lab0104_ForLoop_ConfusionQ" />
+        <item itemvalue="Application.Abc" />
+        <item itemvalue="Application.Lab0116_GuessingNumbers" />
+        <item itemvalue="Application.Lab0115_Factorial_Using_while_loop_Interview4" />
+        <item itemvalue="Application.Lab0114_While_Loop_Interview3_IQ" />
+        <item itemvalue="Application.Lab0113_While_Loop_Interview2" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767492989280</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="For loop examples">
+      <option name="closed" value="true" />
+      <created>1767839436468</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767839436468</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +386,7 @@
     <MESSAGE value="Grade Calculator" />
     <MESSAGE value="Coding practice" />
     <MESSAGE value="Changes done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes done" />
+    <MESSAGE value="For loop examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="For loop examples" />
   </component>
 </project>
