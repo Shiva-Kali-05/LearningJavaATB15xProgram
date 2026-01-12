@@ -1,6 +1,6 @@
 package ex_06_Ternary_Operator;
 
-public class Lab0060_Turnary_Operator_Three_Max_Number {
+public class    Lab0060_Turnary_Operator_Three_Max_Number {
     public static void main(String[] args) {
         int n1 = 45;
         int n2=125;
