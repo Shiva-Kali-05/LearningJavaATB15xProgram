@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Do while loops and functions/Methods">
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0126_String_basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0127_String_examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0128_String_Creation_New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0129_String_Immutable_ex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0130_String_Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0131_String_InterviewQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0132_String_InterviewQ1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0133_String_InterviewQ2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0134_String_functions2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0135_String_Other_functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0136_String_Interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0137_StringBuilder_StringBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0138_StringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0139_OtherFunctionsof_both.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab013_String_Other_Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0140_ReverseString.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="String, StringBuilder and StringBuffers">
+      <change afterPath="$PROJECT_DIR$/src/ex_14_String/Lab0141_String_Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_15_Array/Lab0142_Array_Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_15_Array/Lab0143_Array_Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_15_Array/Lab0144_Array_declaration_alltype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_15_Array/Lab0145_Array_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_15_Array/Lab0146_Array_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_15_Array/Lab0147_Array_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,6 +184,13 @@
     "Application.Lab0139_OtherFunctionsof_both.executor": "Run",
     "Application.Lab013_String_Other_Examples.executor": "Run",
     "Application.Lab0140_ReverseString.executor": "Debug",
+    "Application.Lab0141_String_Palindrome.executor": "Run",
+    "Application.Lab0142_Array.executor": "Run",
+    "Application.Lab0142_Array_Min.executor": "Run",
+    "Application.Lab0144_Array_declaration_alltype.executor": "Run",
+    "Application.Lab0145_Array_01.executor": "Run",
+    "Application.Lab0145_Array_02.executor": "Run",
+    "Application.Lab0147_Array_03.executor": "Run",
     "Application.Lab0187_Diff_While_and_Do_While.executor": "Run",
     "Application.Ternary_Operator.executor": "Run",
     "Application.Ternary_max.executor": "Run",
@@ -208,13 +206,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0140_ReverseString">
-    <configuration name="Lab0136_String_Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_14_String.Lab0136_String_Interview" />
+  <component name="RunManager" selected="Application.Lab0147_Array_03">
+    <configuration name="Lab0143_Array_Min" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0143_Array_Min" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_14_String.*" />
+          <option name="PATTERN" value="ex_15_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0137_StringBuilder_StringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_14_String.Lab0137_StringBuilder_StringBuffer" />
+    <configuration name="Lab0144_Array_declaration_alltype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0144_Array_declaration_alltype" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_14_String.*" />
+          <option name="PATTERN" value="ex_15_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0138_StringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_14_String.Lab0138_StringBuilder" />
+    <configuration name="Lab0145_Array_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0145_Array_01" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_14_String.*" />
+          <option name="PATTERN" value="ex_15_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0139_OtherFunctionsof_both" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_14_String.Lab0139_OtherFunctionsof_both" />
+    <configuration name="Lab0146_Array_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0146_Array_02" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_14_String.*" />
+          <option name="PATTERN" value="ex_15_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0140_ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_14_String.Lab0140_ReverseString" />
+    <configuration name="Lab0147_Array_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0147_Array_03" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_14_String.*" />
+          <option name="PATTERN" value="ex_15_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,19 +273,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lab0136_String_Interview" />
-      <item itemvalue="Application.Lab0137_StringBuilder_StringBuffer" />
-      <item itemvalue="Application.Lab0138_StringBuilder" />
-      <item itemvalue="Application.Lab0139_OtherFunctionsof_both" />
-      <item itemvalue="Application.Lab0140_ReverseString" />
+      <item itemvalue="Application.Lab0143_Array_Min" />
+      <item itemvalue="Application.Lab0144_Array_declaration_alltype" />
+      <item itemvalue="Application.Lab0145_Array_01" />
+      <item itemvalue="Application.Lab0146_Array_02" />
+      <item itemvalue="Application.Lab0147_Array_03" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab0140_ReverseString" />
-        <item itemvalue="Application.Lab0139_OtherFunctionsof_both" />
-        <item itemvalue="Application.Lab0138_StringBuilder" />
-        <item itemvalue="Application.Lab0137_StringBuilder_StringBuffer" />
-        <item itemvalue="Application.Lab0136_String_Interview" />
+        <item itemvalue="Application.Lab0147_Array_03" />
+        <item itemvalue="Application.Lab0146_Array_02" />
+        <item itemvalue="Application.Lab0145_Array_01" />
+        <item itemvalue="Application.Lab0144_Array_declaration_alltype" />
+        <item itemvalue="Application.Lab0143_Array_Min" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768273627426</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="String, StringBuilder and StringBuffers">
+      <option name="closed" value="true" />
+      <created>1768450320058</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1768450320058</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,27 +447,7 @@
     <MESSAGE value="While and do while loop" />
     <MESSAGE value="Revalidated only" />
     <MESSAGE value="Do while loops and functions/Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Do while loops and functions/Methods" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex_14_String/Lab0140_ReverseString.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex_14_String/Lab0140_ReverseString.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex_14_String/Lab0140_ReverseString.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="String, StringBuilder and StringBuffers" />
+    <option name="LAST_COMMIT_MESSAGE" value="String, StringBuilder and StringBuffers" />
   </component>
 </project>
