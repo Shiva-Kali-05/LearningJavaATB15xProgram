@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Array examples">
-      <change afterPath="$PROJECT_DIR$/src/ex_15_Array/Lab0154_Task_2ndHighest_Array.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Second Highest value from the given array.">
+      <change afterPath="$PROJECT_DIR$/src/ex_16_2Dimentional_Array/Lab0155_2D_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_16_2Dimentional_Array/Lab0156_2D_Array_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_16_2Dimentional_Array/Lab0157_2D_Array_iterate_loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_16_2Dimentional_Array/Lab0158_Right_Triangle_Start_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_16_2Dimentional_Array/Lab0159_Left_Triangle_Start_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_16_2Dimentional_Array/Lab0160_Second_Highest_Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_15_Array/Lab0152_abc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_15_Array/Lab0153_Task_ReverseStringWithoutInbuiltFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +199,11 @@
     "Application.Lab0152_abc.executor": "Run",
     "Application.Lab0153_Task_ReverseStringWithoutInbuiltFunctions.executor": "Run",
     "Application.Lab0154_Task_2ndHighest_Array.executor": "Run",
+    "Application.Lab0155_2D_Array.executor": "Run",
+    "Application.Lab0157_2D_Array_iterate_loop.executor": "Run",
+    "Application.Lab0158_Right_Triangle_Start_Pattern.executor": "Run",
+    "Application.Lab0159_Left_Triangle_Start_Pattern.executor": "Run",
+    "Application.Lab0160_Second_Highest_Array.executor": "Run",
     "Application.Lab0187_Diff_While_and_Do_While.executor": "Run",
     "Application.Ternary_Operator.executor": "Run",
     "Application.Ternary_max.executor": "Run",
@@ -210,13 +219,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0154_Task_2ndHighest_Array">
-    <configuration name="Lab0150_Array_ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0150_Array_ReverseArray" />
+  <component name="RunManager" selected="Application.Lab0160_Second_Highest_Array">
+    <configuration name="Lab0155_2D_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_16_2Dimentional_Array.Lab0155_2D_Array" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_15_Array.*" />
+          <option name="PATTERN" value="ex_16_2Dimentional_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0151_Sum_of_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0151_Sum_of_Array" />
+    <configuration name="Lab0157_2D_Array_iterate_loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_16_2Dimentional_Array.Lab0157_2D_Array_iterate_loop" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_15_Array.*" />
+          <option name="PATTERN" value="ex_16_2Dimentional_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0152_2nd_highest_number_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0152_2nd_highest_number_Array" />
+    <configuration name="Lab0158_Right_Triangle_Start_Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_16_2Dimentional_Array.Lab0158_Right_Triangle_Start_Pattern" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_15_Array.*" />
+          <option name="PATTERN" value="ex_16_2Dimentional_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0153_Task_ReverseStringWithoutInbuiltFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0153_Task_ReverseStringWithoutInbuiltFunctions" />
+    <configuration name="Lab0159_Left_Triangle_Start_Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_16_2Dimentional_Array.Lab0159_Left_Triangle_Start_Pattern" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_15_Array.*" />
+          <option name="PATTERN" value="ex_16_2Dimentional_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,12 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0154_Task_2ndHighest_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_15_Array.Lab0154_Task_2ndHighest_Array" />
+    <configuration name="Lab0160_Second_Highest_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_16_2Dimentional_Array.Lab0160_Second_Highest_Array" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_15_Array.*" />
+          <option name="PATTERN" value="ex_16_2Dimentional_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,19 +286,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lab0154_Task_2ndHighest_Array" />
-      <item itemvalue="Application.Lab0150_Array_ReverseArray" />
-      <item itemvalue="Application.Lab0151_Sum_of_Array" />
-      <item itemvalue="Application.Lab0152_2nd_highest_number_Array" />
-      <item itemvalue="Application.Lab0153_Task_ReverseStringWithoutInbuiltFunctions" />
+      <item itemvalue="Application.Lab0155_2D_Array" />
+      <item itemvalue="Application.Lab0157_2D_Array_iterate_loop" />
+      <item itemvalue="Application.Lab0158_Right_Triangle_Start_Pattern" />
+      <item itemvalue="Application.Lab0159_Left_Triangle_Start_Pattern" />
+      <item itemvalue="Application.Lab0160_Second_Highest_Array" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab0154_Task_2ndHighest_Array" />
-        <item itemvalue="Application.Lab0153_Task_ReverseStringWithoutInbuiltFunctions" />
-        <item itemvalue="Application.Lab0152_2nd_highest_number_Array" />
-        <item itemvalue="Application.Lab0151_Sum_of_Array" />
-        <item itemvalue="Application.Lab0150_Array_ReverseArray" />
+        <item itemvalue="Application.Lab0160_Second_Highest_Array" />
+        <item itemvalue="Application.Lab0159_Left_Triangle_Start_Pattern" />
+        <item itemvalue="Application.Lab0158_Right_Triangle_Start_Pattern" />
+        <item itemvalue="Application.Lab0157_2D_Array_iterate_loop" />
+        <item itemvalue="Application.Lab0155_2D_Array" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768707773700</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Second Highest value from the given array.">
+      <option name="closed" value="true" />
+      <created>1768741678706</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1768741678706</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -470,6 +487,7 @@
     <MESSAGE value="String, StringBuilder and StringBuffers" />
     <MESSAGE value="Array basics" />
     <MESSAGE value="Array examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array examples" />
+    <MESSAGE value="Second Highest value from the given array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Highest value from the given array." />
   </component>
 </project>
