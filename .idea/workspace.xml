@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Second Highest value from the given array.">
-      <change afterPath="$PROJECT_DIR$/src/ex_16_2Dimentional_Array/RightTriangle_Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/CreatingAnObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/Lab0161_Default_Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/Lab0162_Parameterised_Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/Person.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="OOPS Concepts started">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/BrowserSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/Lab0163_Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_17_OOPs_Concepts/TestConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Mastery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Mastery.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Abc.executor": "Run",
+    "Application.BrowserSetup.executor": "Run",
     "Application.Code_02_TablePrint.executor": "Run",
     "Application.Code_03_FizzBuzz.executor": "Run",
     "Application.Lab0011_Variable_basic2.executor": "Run",
@@ -207,11 +210,14 @@
     "Application.Lab0160_Second_Highest_Array.executor": "Run",
     "Application.Lab0161_Constructor.executor": "Run",
     "Application.Lab0162_Parameterised_Constructor.executor": "Run",
+    "Application.Lab0163_Constructor.executor": "Run",
     "Application.Lab0163_Oops.executor": "Run",
     "Application.Lab0187_Diff_While_and_Do_While.executor": "Run",
     "Application.RightTriangle.executor": "Run",
     "Application.Ternary_Operator.executor": "Run",
     "Application.Ternary_max.executor": "Run",
+    "Application.TestClass.executor": "Run",
+    "Application.TestConfig.executor": "Run",
     "Application.UserInputExample.executor": "Run",
     "Application.Variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -224,22 +230,9 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0162_Parameterised_Constructor">
-    <configuration name="CreatingAnObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_17_OOPs_Concepts.CreatingAnObject" />
-      <module name="Java-Mastery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_17_OOPs_Concepts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab0161_Constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_17_OOPs_Concepts.Lab0161_Constructor" />
+  <component name="RunManager" selected="Application.Lab0163_Constructor">
+    <configuration name="BrowserSetup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_17_OOPs_Concepts.BrowserSetup" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
@@ -264,8 +257,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0163_Oops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_17_OOPs_Concepts.Lab0163_Oops" />
+    <configuration name="Lab0163_Constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_17_OOPs_Concepts.Lab0163_Constructor" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
@@ -277,12 +270,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightTriangle_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_16_2Dimentional_Array.RightTriangle_Practice" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_17_OOPs_Concepts.TestClass" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_16_2Dimentional_Array.*" />
+          <option name="PATTERN" value="ex_17_OOPs_Concepts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_17_OOPs_Concepts.TestConfig" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_17_OOPs_Concepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,19 +297,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreatingAnObject" />
-      <item itemvalue="Application.Lab0161_Constructor" />
+      <item itemvalue="Application.BrowserSetup" />
+      <item itemvalue="Application.Lab0163_Constructor" />
+      <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.TestConfig" />
       <item itemvalue="Application.Lab0162_Parameterised_Constructor" />
-      <item itemvalue="Application.Lab0163_Oops" />
-      <item itemvalue="Application.RightTriangle_Practice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab0163_Constructor" />
+        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.BrowserSetup" />
+        <item itemvalue="Application.TestConfig" />
         <item itemvalue="Application.Lab0162_Parameterised_Constructor" />
-        <item itemvalue="Application.Lab0161_Constructor" />
-        <item itemvalue="Application.CreatingAnObject" />
-        <item itemvalue="Application.Lab0163_Oops" />
-        <item itemvalue="Application.RightTriangle_Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768741678706</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="OOPS Concepts started">
+      <option name="closed" value="true" />
+      <created>1769052086794</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1769052086794</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,6 +507,7 @@
     <MESSAGE value="Array basics" />
     <MESSAGE value="Array examples" />
     <MESSAGE value="Second Highest value from the given array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Highest value from the given array." />
+    <MESSAGE value="OOPS Concepts started" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPS Concepts started" />
   </component>
 </project>
