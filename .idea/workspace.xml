@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Opps - Inheritance and it's types">
-      <change afterPath="$PROJECT_DIR$/src/ex_19_OOPs_Polymorphism/Method_Overidding/Lab0167_Overriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_19_OOPs_Polymorphism/Method_Overidding/Lab0168_Realtime_Overriding_Automation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_19_OOPs_Polymorphism/Method_Overloading/Lab0165_Overloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_19_OOPs_Polymorphism/Method_Overloading/Lab0166_Realtime_Automation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0169_Encap_ex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0170_Encap_real_ex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0171_Encap_Getter_Setter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0172_Encap_Real_Ex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0173_RunnerClass.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Encapsulation">
+      <change afterPath="$PROJECT_DIR$/src/ex_21_OOPs_Encap_AccessModifiers/Criminal/Thief.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_21_OOPs_Encap_AccessModifiers/Police/Cop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_21_OOPs_Encap_AccessModifiers/Police/Junior_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_21_OOPs_Encap_AccessModifiers/Police/Junior_Cop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_22_OOPs_Abstraction_SuperKeyword/Lab0174_Super.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0172_Encap_Real_Ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0172_Encap_Real_Ex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0173_RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0173_RunnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,8 @@
     "Application.Code_02_TablePrint.executor": "Run",
     "Application.Code_03_FizzBuzz.executor": "Run",
     "Application.Constructor_Chaning.executor": "Run",
+    "Application.Junior_2.executor": "Run",
+    "Application.Junior_Cop.executor": "Run",
     "Application.Lab0011_Variable_basic2.executor": "Run",
     "Application.Lab0012_Variable_interviewQ.executor": "Run",
     "Application.Lab0013_Variable_InterviewQ2.executor": "Run",
@@ -232,6 +232,7 @@
     "Application.Ternary_max.executor": "Run",
     "Application.TestClass.executor": "Run",
     "Application.TestConfig.executor": "Run",
+    "Application.Thief.executor": "Run",
     "Application.UserInputExample.executor": "Run",
     "Application.Variables.executor": "Run",
     "Application.ex_18_OOPs_Inheritance.Multilevel.RunnerClass.executor": "Run",
@@ -245,13 +246,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0173_RunnerClass">
-    <configuration name="Lab0169_Encap_ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_20_OOPs_Encapsulation.Lab0169_Encap_ex" />
+  <component name="RunManager" selected="Application.Junior_2">
+    <configuration name="Junior_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_21_OOPs_Encap_AccessModifiers.Police.Junior_2" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_20_OOPs_Encapsulation.*" />
+          <option name="PATTERN" value="ex_21_OOPs_Encap_AccessModifiers.Police.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0170_Encap_real_ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_20_OOPs_Encapsulation.Lab0170_Encap_real_ex" />
+    <configuration name="Junior_Cop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_21_OOPs_Encap_AccessModifiers.Police.Junior_Cop" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_20_OOPs_Encapsulation.*" />
+          <option name="PATTERN" value="ex_21_OOPs_Encap_AccessModifiers.Police.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,19 +275,6 @@
     </configuration>
     <configuration name="Lab0171_Encap_Getter_Setter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_20_OOPs_Encapsulation.Lab0171_Encap_Getter_Setter" />
-      <module name="Java-Mastery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_20_OOPs_Encapsulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab0172_Encap_Real_Ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_20_OOPs_Encapsulation.Lab0172_Encap_Real_Ex" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
@@ -311,20 +299,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thief" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_21_OOPs_Encap_AccessModifiers.Criminal.Thief" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_21_OOPs_Encap_AccessModifiers.Criminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Lab0172_Encap_Real_Ex" />
+      <item itemvalue="Application.Junior_2" />
+      <item itemvalue="Application.Junior_Cop" />
+      <item itemvalue="Application.Thief" />
       <item itemvalue="Application.Lab0173_RunnerClass" />
-      <item itemvalue="Application.Lab0170_Encap_real_ex" />
       <item itemvalue="Application.Lab0171_Encap_Getter_Setter" />
-      <item itemvalue="Application.Lab0169_Encap_ex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Junior_2" />
+        <item itemvalue="Application.Junior_Cop" />
+        <item itemvalue="Application.Thief" />
         <item itemvalue="Application.Lab0173_RunnerClass" />
-        <item itemvalue="Application.Lab0172_Encap_Real_Ex" />
         <item itemvalue="Application.Lab0171_Encap_Getter_Setter" />
-        <item itemvalue="Application.Lab0169_Encap_ex" />
-        <item itemvalue="Application.Lab0170_Encap_real_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769317031538</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Encapsulation">
+      <option name="closed" value="true" />
+      <created>1769917510830</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1769917510830</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,6 +550,7 @@
     <MESSAGE value="OOPS Concepts started" />
     <MESSAGE value="Constructor and it's Types" />
     <MESSAGE value="Opps - Inheritance and it's types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opps - Inheritance and it's types" />
+    <MESSAGE value="Encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation" />
   </component>
 </project>

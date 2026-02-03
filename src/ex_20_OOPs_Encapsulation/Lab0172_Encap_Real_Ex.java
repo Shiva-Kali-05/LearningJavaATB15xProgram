@@ -5,7 +5,7 @@ public class Lab0172_Encap_Real_Ex {
     ICICIBank soubhagya = new ICICIBank("Shiva",100);
     long cust_balance1 = soubhagya.getCust_balance();
         System.out.println(cust_balance1);
-        //System.out.println(ic.getCust_balance);//we cannot directly to the balance, it must use get balance method.
+        //System.out.println(ic.getCust_balance);//we cannot directly use to the balance, it must use get balance method.
         soubhagya.setCust_balance(500,false);//this should not be allows.
         System.out.println(soubhagya.getCust_balance());
 
