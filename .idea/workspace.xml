@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Encapsulation">
-      <change afterPath="$PROJECT_DIR$/src/ex_21_OOPs_Encap_AccessModifiers/Criminal/Thief.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_21_OOPs_Encap_AccessModifiers/Police/Cop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_21_OOPs_Encap_AccessModifiers/Police/Junior_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_21_OOPs_Encap_AccessModifiers/Police/Junior_Cop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_22_OOPs_Abstraction_SuperKeyword/Lab0174_Super.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Realtime Examples of Encapsulation">
+      <change afterPath="$PROJECT_DIR$/src/ex_23_OOPs_Abstraction/Lab0175_abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_23_OOPs_Abstraction/Lab0176_abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_23_OOPs_Abstraction/Lab0177_betterEx_abstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_23_OOPs_Abstraction/Lab0178_Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_24_Coding_Challenges1/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0172_Encap_Real_Ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0172_Encap_Real_Ex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0173_RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_20_OOPs_Encapsulation/Lab0173_RunnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,7 @@
     "Application.Code_02_TablePrint.executor": "Run",
     "Application.Code_03_FizzBuzz.executor": "Run",
     "Application.Constructor_Chaning.executor": "Run",
+    "Application.Details.executor": "Run",
     "Application.Junior_2.executor": "Run",
     "Application.Junior_Cop.executor": "Run",
     "Application.Lab0011_Variable_basic2.executor": "Run",
@@ -224,8 +223,12 @@
     "Application.Lab0171_Encap_Getter_Setter.executor": "Run",
     "Application.Lab0172_Encap_Real_Ex.executor": "Run",
     "Application.Lab0173_RunnerClass.executor": "Run",
+    "Application.Lab0175_abstraction.executor": "Run",
+    "Application.Lab0177_betterEx_abstract.executor": "Run",
+    "Application.Lab0178_Interface1.executor": "Run",
     "Application.Lab0187_Diff_While_and_Do_While.executor": "Run",
     "Application.LoginPage1.executor": "Run",
+    "Application.Person.executor": "Run",
     "Application.RightTriangle.executor": "Run",
     "Application.RunnerClass.executor": "Run",
     "Application.Ternary_Operator.executor": "Run",
@@ -240,19 +243,20 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/AutomationProjects/guru99BankingDemoProject_Selenium",
     "onboarding.tips.debug.path": "C:/Users/Shivakumar Kali/IdeaProjects/LearningJavaATB15xProgram/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Junior_2">
-    <configuration name="Junior_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_21_OOPs_Encap_AccessModifiers.Police.Junior_2" />
+  <component name="RunManager" selected="Application.Details">
+    <configuration name="Details" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_24_Coding_Challenges1.Details" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_21_OOPs_Encap_AccessModifiers.Police.*" />
+          <option name="PATTERN" value="ex_24_Coding_Challenges1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Junior_Cop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_21_OOPs_Encap_AccessModifiers.Police.Junior_Cop" />
+    <configuration name="Lab0175_abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_23_OOPs_Abstraction.Lab0175_abstraction" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_21_OOPs_Encap_AccessModifiers.Police.*" />
+          <option name="PATTERN" value="ex_23_OOPs_Abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0171_Encap_Getter_Setter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_20_OOPs_Encapsulation.Lab0171_Encap_Getter_Setter" />
+    <configuration name="Lab0177_betterEx_abstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_23_OOPs_Abstraction.Lab0177_betterEx_abstract" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_20_OOPs_Encapsulation.*" />
+          <option name="PATTERN" value="ex_23_OOPs_Abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0173_RunnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_20_OOPs_Encapsulation.Lab0173_RunnerClass" />
+    <configuration name="Lab0178_Interface1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_23_OOPs_Abstraction.Lab0178_Interface1" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_20_OOPs_Encapsulation.*" />
+          <option name="PATTERN" value="ex_23_OOPs_Abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +303,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thief" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_21_OOPs_Encap_AccessModifiers.Criminal.Thief" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_24_Coding_Challenges1.Person" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_21_OOPs_Encap_AccessModifiers.Criminal.*" />
+          <option name="PATTERN" value="ex_24_Coding_Challenges1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,19 +317,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Junior_2" />
-      <item itemvalue="Application.Junior_Cop" />
-      <item itemvalue="Application.Thief" />
-      <item itemvalue="Application.Lab0173_RunnerClass" />
-      <item itemvalue="Application.Lab0171_Encap_Getter_Setter" />
+      <item itemvalue="Application.Details" />
+      <item itemvalue="Application.Person" />
+      <item itemvalue="Application.Lab0175_abstraction" />
+      <item itemvalue="Application.Lab0177_betterEx_abstract" />
+      <item itemvalue="Application.Lab0178_Interface1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Junior_2" />
-        <item itemvalue="Application.Junior_Cop" />
-        <item itemvalue="Application.Thief" />
-        <item itemvalue="Application.Lab0173_RunnerClass" />
-        <item itemvalue="Application.Lab0171_Encap_Getter_Setter" />
+        <item itemvalue="Application.Details" />
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.Lab0178_Interface1" />
+        <item itemvalue="Application.Lab0177_betterEx_abstract" />
+        <item itemvalue="Application.Lab0175_abstraction" />
       </list>
     </recent_temporary>
   </component>
@@ -514,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769917510830</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Realtime Examples of Encapsulation">
+      <option name="closed" value="true" />
+      <created>1770087437262</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1770087437262</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,6 +563,7 @@
     <MESSAGE value="Constructor and it's Types" />
     <MESSAGE value="Opps - Inheritance and it's types" />
     <MESSAGE value="Encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation" />
+    <MESSAGE value="Realtime Examples of Encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realtime Examples of Encapsulation" />
   </component>
 </project>
