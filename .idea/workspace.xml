@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Codding Challenge 1">
-      <change afterPath="$PROJECT_DIR$/src/ex_24_Coding_Challenges1/Student.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Codding Challenge 2">
+      <change afterPath="$PROJECT_DIR$/src/ex_25_Interface/Lab0179_Interface_P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_25_Interface/Lab0180_Interface_P2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_25_Interface/Lab0181_Interview_Q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_25_Interface/Lab0182_InterfaceVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_26_Static/Lab0183_Static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_26_Static/Lab0184_Static_A1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_26_Static/Lab0185_StaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_26_Static/Lab0186_StaticUseAutomation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,11 +229,16 @@
     "Application.Lab0175_abstraction.executor": "Run",
     "Application.Lab0177_betterEx_abstract.executor": "Run",
     "Application.Lab0178_Interface1.executor": "Run",
+    "Application.Lab0179_Interface_P1.executor": "Run",
+    "Application.Lab0183_Static.executor": "Run",
+    "Application.Lab0184_StaticBlock.executor": "Run",
+    "Application.Lab0184_Static_A1.executor": "Run",
     "Application.Lab0187_Diff_While_and_Do_While.executor": "Run",
     "Application.LoginPage1.executor": "Run",
     "Application.Person.executor": "Run",
     "Application.RightTriangle.executor": "Run",
     "Application.RunnerClass.executor": "Run",
+    "Application.StudentInformation.executor": "Run",
     "Application.Ternary_Operator.executor": "Run",
     "Application.Ternary_max.executor": "Run",
     "Application.TestClass.executor": "Run",
@@ -246,13 +258,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StudentInformation">
-    <configuration name="Details" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_24_Coding_Challenges1.Details" />
+  <component name="RunManager" selected="Application.Lab0186_StaticUseAutomation">
+    <configuration name="Lab0179_Interface_P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_25_Interface.Lab0179_Interface_P1" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_24_Coding_Challenges1.*" />
+          <option name="PATTERN" value="ex_25_Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0177_betterEx_abstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_23_OOPs_Abstraction.Lab0177_betterEx_abstract" />
+    <configuration name="Lab0183_Static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_26_Static.Lab0183_Static" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_23_OOPs_Abstraction.*" />
+          <option name="PATTERN" value="ex_26_Static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab0178_Interface1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_23_OOPs_Abstraction.Lab0178_Interface1" />
+    <configuration name="Lab0184_StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_26_Static.Lab0184_StaticBlock" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_23_OOPs_Abstraction.*" />
+          <option name="PATTERN" value="ex_26_Static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_24_Coding_Challenges1.Person" />
+    <configuration name="Lab0184_Static_A1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_26_Static.Lab0184_Static_A1" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_24_Coding_Challenges1.*" />
+          <option name="PATTERN" value="ex_26_Static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_24_Coding_Challenges1.StudentInformation" />
+    <configuration name="Lab0186_StaticUseAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_26_Static.Lab0186_StaticUseAutomation" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_24_Coding_Challenges1.*" />
+          <option name="PATTERN" value="ex_26_Static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,19 +325,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Details" />
-      <item itemvalue="Application.Person" />
-      <item itemvalue="Application.StudentInformation" />
-      <item itemvalue="Application.Lab0177_betterEx_abstract" />
-      <item itemvalue="Application.Lab0178_Interface1" />
+      <item itemvalue="Application.Lab0179_Interface_P1" />
+      <item itemvalue="Application.Lab0183_Static" />
+      <item itemvalue="Application.Lab0184_StaticBlock" />
+      <item itemvalue="Application.Lab0184_Static_A1" />
+      <item itemvalue="Application.Lab0186_StaticUseAutomation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentInformation" />
-        <item itemvalue="Application.Details" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.Lab0178_Interface1" />
-        <item itemvalue="Application.Lab0177_betterEx_abstract" />
+        <item itemvalue="Application.Lab0186_StaticUseAutomation" />
+        <item itemvalue="Application.Lab0184_StaticBlock" />
+        <item itemvalue="Application.Lab0184_Static_A1" />
+        <item itemvalue="Application.Lab0183_Static" />
+        <item itemvalue="Application.Lab0179_Interface_P1" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770689278329</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Codding Challenge 2">
+      <option name="closed" value="true" />
+      <created>1770690748888</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1770690748888</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,6 +589,7 @@
     <MESSAGE value="Encapsulation" />
     <MESSAGE value="Realtime Examples of Encapsulation" />
     <MESSAGE value="Codding Challenge 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codding Challenge 1" />
+    <MESSAGE value="Codding Challenge 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codding Challenge 2" />
   </component>
 </project>
