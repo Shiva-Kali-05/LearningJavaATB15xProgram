@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Codding Challenge 2">
-      <change afterPath="$PROJECT_DIR$/src/ex_25_Interface/Lab0179_Interface_P1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_25_Interface/Lab0180_Interface_P2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_25_Interface/Lab0181_Interview_Q.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_25_Interface/Lab0182_InterfaceVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_26_Static/Lab0183_Static.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_26_Static/Lab0184_Static_A1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_26_Static/Lab0185_StaticBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_26_Static/Lab0186_StaticUseAutomation.java" afterDir="false" />
+    <list default="true" id="94d011af-86b7-4e3e-a1c1-76c454f9f7db" name="Changes" comment="Interfaces and Static Keyword">
+      <change afterPath="$PROJECT_DIR$/src/ex_27_Exceptions/Lab0187_Exception_checked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_27_Exceptions/Lab0188_Exception_Unchecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_27_Exceptions/Lab0189_Exception_StringNullPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_27_Exceptions/Lab0190_Exception_Handling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_27_Exceptions/Lab0191_Try_Catch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_27_Exceptions/Lab0192_Try_Multiple_Catch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +60,8 @@
     "Application.Code_03_FizzBuzz.executor": "Run",
     "Application.Constructor_Chaning.executor": "Run",
     "Application.Details.executor": "Run",
+    "Application.ExceptionBasic.executor": "Run",
+    "Application.Exception_StringNullPointer.executor": "Run",
     "Application.Junior_2.executor": "Run",
     "Application.Junior_Cop.executor": "Run",
     "Application.Lab0011_Variable_basic2.executor": "Run",
@@ -233,7 +233,10 @@
     "Application.Lab0183_Static.executor": "Run",
     "Application.Lab0184_StaticBlock.executor": "Run",
     "Application.Lab0184_Static_A1.executor": "Run",
+    "Application.Lab0186_StaticUseAutomation.executor": "Run",
     "Application.Lab0187_Diff_While_and_Do_While.executor": "Run",
+    "Application.Lab0190_Exception_Handling.executor": "Run",
+    "Application.Lab0192_Try_Multiple_Catch.executor": "Run",
     "Application.LoginPage1.executor": "Run",
     "Application.Person.executor": "Run",
     "Application.RightTriangle.executor": "Run",
@@ -258,59 +261,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab0186_StaticUseAutomation">
-    <configuration name="Lab0179_Interface_P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_25_Interface.Lab0179_Interface_P1" />
-      <module name="Java-Mastery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_25_Interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab0183_Static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_26_Static.Lab0183_Static" />
-      <module name="Java-Mastery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_26_Static.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab0184_StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_26_Static.Lab0184_StaticBlock" />
-      <module name="Java-Mastery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_26_Static.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab0184_Static_A1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_26_Static.Lab0184_Static_A1" />
-      <module name="Java-Mastery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_26_Static.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lab0192_Try_Multiple_Catch">
     <configuration name="Lab0186_StaticUseAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_26_Static.Lab0186_StaticUseAutomation" />
       <module name="Java-Mastery" />
@@ -324,20 +275,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab0188_Exception_Unchecked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_27_Exceptions.Lab0188_Exception_Unchecked" />
+      <module name="Java-Mastery" />
+      <option name="PROGRAM_PARAMETERS" value="Nihal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_27_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab0189_Exception_StringNullPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_27_Exceptions.Lab0189_Exception_StringNullPointer" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_27_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab0190_Exception_Handling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_27_Exceptions.Lab0190_Exception_Handling" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_27_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab0192_Try_Multiple_Catch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_27_Exceptions.Lab0192_Try_Multiple_Catch" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_27_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Lab0179_Interface_P1" />
-      <item itemvalue="Application.Lab0183_Static" />
-      <item itemvalue="Application.Lab0184_StaticBlock" />
-      <item itemvalue="Application.Lab0184_Static_A1" />
+      <item itemvalue="Application.Lab0189_Exception_StringNullPointer" />
+      <item itemvalue="Application.Lab0190_Exception_Handling" />
+      <item itemvalue="Application.Lab0192_Try_Multiple_Catch" />
+      <item itemvalue="Application.Lab0188_Exception_Unchecked" />
       <item itemvalue="Application.Lab0186_StaticUseAutomation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab0192_Try_Multiple_Catch" />
+        <item itemvalue="Application.Lab0190_Exception_Handling" />
+        <item itemvalue="Application.Lab0189_Exception_StringNullPointer" />
+        <item itemvalue="Application.Lab0188_Exception_Unchecked" />
         <item itemvalue="Application.Lab0186_StaticUseAutomation" />
-        <item itemvalue="Application.Lab0184_StaticBlock" />
-        <item itemvalue="Application.Lab0184_Static_A1" />
-        <item itemvalue="Application.Lab0183_Static" />
-        <item itemvalue="Application.Lab0179_Interface_P1" />
       </list>
     </recent_temporary>
   </component>
@@ -550,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770690748888</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Interfaces and Static Keyword">
+      <option name="closed" value="true" />
+      <created>1771038949719</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1771038949719</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test" />
     <MESSAGE value="Java Basics Practice - 16 Dec 2025" />
     <MESSAGE value="Java Basics Practice - 17 Dec 2025" />
     <MESSAGE value="Java Basics Practice - 19 Dec 2025" />
@@ -590,6 +601,7 @@
     <MESSAGE value="Realtime Examples of Encapsulation" />
     <MESSAGE value="Codding Challenge 1" />
     <MESSAGE value="Codding Challenge 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codding Challenge 2" />
+    <MESSAGE value="Interfaces and Static Keyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaces and Static Keyword" />
   </component>
 </project>
